@@ -130,3 +130,31 @@
     filter: brightness(0.9)
   }
 }
+
+@media (max-width: 600px) {
+  #auth-page {
+    flex-direction: column;
+
+    aside {
+      padding: 8px 40px 24px;
+
+      strong {
+        font-size: 32px;
+      }
+  
+      p {
+        font-size: 22px;
+      }
+    }
+
+    main {
+      padding: 12px 32px 40px;
+    }
+
+    .main-content {
+      h2 {
+        margin: 12px 0 24px;
+      }
+    }
+  }
+}
