@@ -1,0 +1,132 @@
+#auth-page {
+  display: flex;
+  align-items: stretch;
+  height: 100vh;
+
+  aside {
+    flex: 7;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 120px 80px;
+
+    img {
+      max-width: 320px;
+    }
+
+    strong {
+      font: 700 36px 'Otomanopee One', sans-serif;
+      // font: 700 36px 'KoHo', sans-serif;
+      line-height: 42px;
+      margin-top: 16px;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 16px;
+    }
+  }
+
+  main {
+    flex: 8;
+
+    padding: 0 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFF;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    align-items: center;
+    text-align: center;
+
+    > img {
+      align-items: center;
+      max-width: 192px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 64px 0 24px;
+      font-family: 'Otomanopee One', sans-serif;
+      // font-family: 'KoHo', sans-serif;
+    }
+
+    p {
+      font-size: 14px;
+      margin-top: 16px;
+    }
+  }
+   
+.create-account {
+  margin-top: 12px;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: 500;
+  background: #ea4335;
+  color: #FFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  cursor: pointer;
+  border: 0;
+  
+  padding: 0 24px;
+  width: 100%;
+
+  transition: filter 0.2s;
+
+  img {
+    margin-right: 8px;
+  }
+
+  &:hover {
+    filter: brightness(0.9)
+  }
+}
+}
+
+.download-app {
+  width: 100%;
+  text-decoration: none;
+}
+.download-app button {
+  margin-top: 12px;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: 500;
+  background: #689f38;
+  color: #FFF;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  border: 0;
+
+  padding: 0 24px;
+  width: 100%;
+
+  transition: filter 0.2s;
+
+  img {
+    margin-right: 8px;
+  }
+
+  &:hover {
+    filter: brightness(0.9)
+  }
+}
