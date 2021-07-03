@@ -1,14 +1,15 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+// import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import { AuthContextProvider } from './contexts/AuthContext';
+// import { AuthContextProvider } from './contexts/AuthContext';
 
 import { Home } from './pages/Home'
-import { Code } from './pages/Code';
-import { Panel } from './pages/Panel';
+// import { Code } from './pages/Code';
+// import { Panel } from './pages/Panel';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Home />
+    /* <BrowserRouter>
       <AuthContextProvider>
         <Switch>
           <Route path="/" exact component={Home} />
@@ -16,7 +17,7 @@ function App() {
           <Route path="/code" component={Code} />
        </Switch>
       </AuthContextProvider>
-    </BrowserRouter>
+    </BrowserRouter>*/
   );
 }
 
